@@ -30,11 +30,11 @@ function switchOnCharmFromTip(tip){
     response= "Thank you so much.";
     console.log(response);
     break;
-  case "not generous":
+  case "not as generous":
     response= "Thank you.";
     console.log(response);
     break;
-  default:
+  case  `thanks for everything`:
     response= "Bye.";
     console.log(response);
     break;
@@ -42,4 +42,4 @@ function switchOnCharmFromTip(tip){
   return response;
 }
 
-switchOnCharmFromTip("not generous");
+switchOnCharmFromTip("not as generous");
